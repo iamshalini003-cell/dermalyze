@@ -1,0 +1,25 @@
+.q { margin: 16px 0 6px; font-weight: 600; }
+.checks { display: flex; flex-wrap: wrap; gap: 8px; }
+.check {
+  display: flex; align-items: center; gap: 6px; padding: 8px 12px;
+  border: 1px solid var(--line); border-radius: 999px; background: var(--bg);
+}
+.field select {
+  width: 100%; padding: 10px; margin-top: 4px; border: 1px solid var(--line);
+  border-radius: 8px; font-size: 1rem; background: #fff; color: var(--text);
+}
+.products { list-style: none; padding: 0; margin: 0 0 8px; }
+.products li {
+  display: flex; justify-content: space-between; align-items: center;
+  border-top: 1px solid var(--line); padding: 8px 0;
+}
+.add-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.add-row input[type='text'] {
+  flex: 1 1 140px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; font-size: 1rem;
+}
+.add-row select {
+  padding: 10px; border: 1px solid var(--line); border-radius: 8px; font-size: 1rem;
+  background: #fff; color: var(--text);
+}
+.add-btn { width: auto !important; margin-top: 0 !important; padding: 10px 16px !important; }
+.ok { color: #1b6e2d; }
